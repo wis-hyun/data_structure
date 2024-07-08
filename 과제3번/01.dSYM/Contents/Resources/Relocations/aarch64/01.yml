@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/sunghyunkim/Desktop/데이터구조/과제/과제3번/01"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100003764, symSize: 0x70 }
+  - { offsetInCU: 0x8A, offset: 0x8A, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100003764, symSize: 0x70 }
+  - { offsetInCU: 0xC0, offset: 0xC0, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x70, symBinAddr: 0x1000037D4, symSize: 0xA8 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _printList, symObjAddr: 0x118, symBinAddr: 0x10000387C, symSize: 0x7C }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _selectionSort, symObjAddr: 0x194, symBinAddr: 0x1000038F8, symSize: 0xCC }
+  - { offsetInCU: 0x19C, offset: 0x19C, size: 0x8, addend: 0x0, symName: _findMiddle, symObjAddr: 0x260, symBinAddr: 0x1000039C4, symSize: 0xBC }
+  - { offsetInCU: 0x1EE, offset: 0x1EE, size: 0x8, addend: 0x0, symName: _binarySearch, symObjAddr: 0x31C, symBinAddr: 0x100003A80, symSize: 0x294 }
+  - { offsetInCU: 0x2BA, offset: 0x2BA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5B0, symBinAddr: 0x100003D14, symSize: 0x15C }
+...

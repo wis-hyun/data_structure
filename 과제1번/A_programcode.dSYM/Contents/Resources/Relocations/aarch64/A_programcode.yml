@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/sunghyunkim/Desktop/데이터구조/과제/과제1번/A_programcode"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initStack, symObjAddr: 0x0, symBinAddr: 0x100003604, symSize: 0x1C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _initStack, symObjAddr: 0x0, symBinAddr: 0x100003604, symSize: 0x1C }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _isStackEmpty, symObjAddr: 0x1C, symBinAddr: 0x100003620, symSize: 0x24 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _isStackFull, symObjAddr: 0x40, symBinAddr: 0x100003644, symSize: 0x24 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x64, symBinAddr: 0x100003668, symSize: 0x68 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0xCC, symBinAddr: 0x1000036D0, symSize: 0x64 }
+  - { offsetInCU: 0x10F, offset: 0x10F, size: 0x8, addend: 0x0, symName: _peek, symObjAddr: 0x130, symBinAddr: 0x100003734, symSize: 0x58 }
+  - { offsetInCU: 0x137, offset: 0x137, size: 0x8, addend: 0x0, symName: _precedence, symObjAddr: 0x188, symBinAddr: 0x10000378C, symSize: 0x68 }
+  - { offsetInCU: 0x15F, offset: 0x15F, size: 0x8, addend: 0x0, symName: _infixTopostfix, symObjAddr: 0x208, symBinAddr: 0x10000380C, symSize: 0x478 }
+  - { offsetInCU: 0x1D7, offset: 0x1D7, size: 0x8, addend: 0x0, symName: _evalPostfix, symObjAddr: 0x680, symBinAddr: 0x100003C84, symSize: 0x16C }
+  - { offsetInCU: 0x26F, offset: 0x26F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x804, symBinAddr: 0x100003E08, symSize: 0xBC }
+...
